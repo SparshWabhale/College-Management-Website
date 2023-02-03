@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  min-height: 100vh;
+  background: url('https://images.static-collegedunia.com/public/college_data/images/campusimage/14725356391%20Entrance.jpg') no-repeat top center;
+  background-size: cover;
+  height: 100vh;
+}
+
+  
+  .content-table {
+    border-collapse: collapse;
+    border:#000000;
+    margin: 25px 150px;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    
+  }
+  
+  .content-table thead tr {
+    background-color: #363096;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .content-table th{
+    padding: 12px 15px;
+    text-align: center;
+  }
+  .content-table td 
+  {
+    padding: 12px 15px;
+    background-color: #f3f3f3;
+    border-bottom: 1px solid #000000;
+    text-align: center;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #363096;
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #efeff1;
+  }
+  .h1{
+    position: auto;
+    font-size: 40px;
+    font-weight: 600;
+    color: #0a0a0a;
+  }
+  .h2{
+    position: auto;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0a0a0a;
+  }
+  button {
+	border-radius: 20px;
+	border: 1px solid #2c7bd6;
+	background-color: #363096;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}

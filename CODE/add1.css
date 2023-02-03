@@ -1,0 +1,134 @@
+body{
+    min-height: 100vh;
+    background: url('https://images.static-collegedunia.com/public/college_data/images/campusimage/14725356391%20Entrance.jpg') no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+  }
+h1 {
+    text-align: center;
+}
+.button {
+	border-radius: 20px;
+	border: 1px solid #2c7bd6;
+	background-color: #363096;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 550px;
+    height: 500px;
+    background: rgba(0,0,0,0.8);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  
+  .wrapper .title h1{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+.wrapper h3{
+    color:white;
+}
+.wrapper form{
+    margin-top: 30px;
+  }
+  .wrapper form{
+    height: 52px;
+    margin: 18px 0;
+  }
+  form input{
+    height: 50%;
+    width: 50%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #C7BEBE;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+h2{
+      text-align: center;
+      color:white;
+  
+  }
+ul 
+{
+    list-style-type: none;
+    width: 500px;
+}
+ul li
+{
+    color:white;
+    width: 500px;
+    margin: 0px 100px;
+    padding: 5px;
+    display: inline-block; 
+}
+strong{
+    color: rgb(236, 233, 57);
+    font-size: 25px;
+    margin: 0px 220px;
+   
+}
+.wrapper p{
+    color: white;
+}
+#prev 
+{
+    display:none;
+}
+.btn {
+	border-radius: 20px;
+	border: 1px solid #2c7bd6;
+	background-color: #363096;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+    text-align: center;
+  
+}
+.bttn {
+	border-radius: 20px;
+	border: 1px solid #2c7bd6;
+	background-color: #363096;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 10px 15px;
+  width: 120px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+
+	transition: transform 80ms ease-in;
+  margin: 0px 10px;
+}
+input[type="radio"]{
+    cursor: pointer;
+}
+.p{
+    color: white;
+    font-size: 20px;
+}
+.font{
+  color:white;
+}

@@ -1,0 +1,88 @@
+body{
+    min-height: 100vh;
+    background: url('https://images.static-collegedunia.com/public/college_data/images/campusimage/14725356391%20Entrance.jpg') no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+  }
+h1 {
+    text-align: center;
+}
+.button {
+	border-radius: 20px;
+	border: 1px solid #2c7bd6;
+	background-color: #363096;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 550px;
+    height: 260px;
+    background: rgba(0,0,0,0.8);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  
+  .wrapper .title h1{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+.wrapper h3{
+    color:white;
+}
+h2{
+      text-align: center;
+      color:white;
+  
+  }
+ul 
+{
+    list-style-type: none;
+    width: 500px;
+}
+ul li
+{
+    color:white;
+    width: 500px;
+    margin: 0px 100px;
+    padding: 5px;
+    display: inline-block; 
+}
+strong{
+    color: rgb(236, 233, 57);
+}
+#prev 
+{
+    display:none;
+}
+.btn {
+	border-radius: 20px;
+	border: 1px solid #2c7bd6;
+	background-color: #363096;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+input[type="radio"]{
+    cursor: pointer;
+}
+.p{
+    color: white;
+    font-size: 20px;
+}

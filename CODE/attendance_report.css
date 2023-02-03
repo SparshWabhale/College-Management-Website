@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto');
+*{
+ margin:0;
+ padding: 0;
+ outline: 0;
+}
+body{
+	min-height: 100vh;
+	background: url('https://images.static-collegedunia.com/public/college_data/images/campusimage/14725356391%20Entrance.jpg') no-repeat top center;
+	background-size: cover;
+	height: 100vh;
+  }
+.filter{
+ position: absolute;
+ left: 0;
+ top: 0;
+ bottom: 0;
+ right: 0;
+ z-index: 1;
+ background: rgb(76, 149, 233);
+background: -moz-linear-gradient(90deg, rgb(76, 100, 233) 0%, rgb(74, 117, 233) 100%);
+background: -webkit-linear-gradient(90deg, rgb(76, 170, 233) 0%, rgb(74, 90, 233) 100%);
+background: linear-gradient(90deg, rgb(76, 105, 233) 0%, rgb(74, 117, 233)100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e94ca1",endColorstr="#c74ae9",GradientType=1);
+opacity: .7;
+}
+table{
+ position: center;
+ z-index: 2;
+ left: 50%;
+ top: 50%;
+ transform: translate(30%,40%);
+ width: 60%; 
+ border-collapse: collapse;
+ border-spacing: 0;
+ box-shadow: 0 2px 15px rgba(2, 2, 2, 0.7);
+ border-radius: 12px 12px 0 0;
+ overflow: hidden;
+
+}
+td , th{
+ padding: 15px 20px;
+ transform: translate(0%,0%);
+ text-align: center;
+ position: center;
+ 
+
+}
+th{
+ background-color: #422cbe;
+ color: #fafafa;
+ font-family: 'Open Sans',Sans-serif;
+ font-weight: 200;
+ text-transform: uppercase;
+
+}
+tr{
+ width: 100%;
+ background-color: #fafafa;
+ font-family: 'Montserrat', sans-serif;
+}
+tr:nth-child(even){
+ background-color: #eeeeee;
+}
+caption{
+    background: #f3e739 ;
+    padding: 10px;
+    color:rgb(8, 8, 8);
+    text-transform: uppercase;
+    font-family: 'Open Sans',Sans-serif;
+  }
+
+  .button {
+	border: none;
+	color: white;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+  }
+  
+  .button1 {
+	background-color: white; 
+	color: black; 
+	border: 2px solid #422cbe;
+  }
+  
+  .button1:hover {
+	background-color: #422cbe;
+	color: white;
+  }
+  

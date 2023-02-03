@@ -1,0 +1,51 @@
+body{
+  min-height: 100vh;
+  background: url('https://images.static-collegedunia.com/public/college_data/images/campusimage/14725356391%20Entrance.jpg') no-repeat top center;
+  background-size: cover;
+  height: 100vh;
+}
+.card {
+  box-shadow: 0 4px 8px 0 blue;
+  background: rgba(224, 230, 231, 0.87);
+  max-width: 500px;
+  max-height: 900px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  color: rgb(7, 7, 7);
+}
+
+.title {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  text-align: left;
+}
+.info 
+{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: left;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 10px 54px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px -30px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #422cbe;
+}
+
+.button1:hover {
+  background-color:  #422cbe;
+  color: white;
+}
